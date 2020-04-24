@@ -48,8 +48,9 @@ function validateMyForm() {
         alert("Enquiry successfully submitted!");
         clearForm();
     }
+
 }
 
 function clearForm() {
-    subName.value = subNumber.value = email.value = enquiry.value = nameError = numberError = emailError = enquiryError = "";
+    subName.value = subNumber.value = email.value = enquiry.value = nameError.innerHTML = numberError.innerHTML = emailError.innerHTML = enquiryError.innerHTML = "";
 }
